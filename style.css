@@ -1,0 +1,38 @@
+/* Body Background */
+body {
+    background-color: #9b1d4a; /* Dark pink, easy on the eyes */
+    font-family: 'Inter', sans-serif;
+}
+
+/* Glassy sections */
+.glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 20px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #7a1a3b;
+}
+::-webkit-scrollbar-thumb {
+    background: #5b1230;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #3f0b21;
+}
+
+/* Active Navigation Button */
+.nav-active {
+    background-color: #7a1a3b;
+    color: #ffe4f0;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
